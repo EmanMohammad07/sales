@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Reports</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .container { max-width: 800px; margin: auto; }
+        h1 { text-align: center; color: #007BFF; }
+        .report {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .home-link, .download-link {
+            display: block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            width: fit-content;
+        }
+        .home-link:hover, .download-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sales Reports</h1>
+        
+        <div class="report">
+            <h2>Daily Report</h2>
+            <p>Overview of today's sales. Total Sales: $200</p>
+            <a href="#" class="download-link">Download Daily Report</a>
+        </div>
+
+        <div class="report">
+            <h2>Monthly Report</h2>
+            <p>Overview of sales for the current month. Total Sales: $6000</p>
+            <a href="#" class="download-link">Download Monthly Report</a>
+        </div>
+
+        <div class="report">
+            <h2>Yearly Report</h2>
+            <p>Overview of sales for the current year. Total Sales: $72000</p>
+            <a href="#" class="download-link">Download Yearly Report</a>
+        </div>
+
+        <a href="homePage.html" class="home-link">Return to Home Page</a>
+    </div>
+
+</body>
+</html>

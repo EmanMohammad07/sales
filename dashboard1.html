@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .container { max-width: 800px; margin: auto; }
+        .dashboard-title { text-align: center; font-size: 28px; margin-bottom: 20px; }
+        .overview, .activities {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        h2 { color: #007BFF; text-align: center; }
+        .home-link {
+            display: block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            width: fit-content;
+        }
+        .home-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="dashboard-title">Sales Dashboard</div>
+        <div class="overview">
+            <h2>Sales Overview</h2>
+            <p>Total Sales Today: $500</p>
+            <p>Total Sales This Week: $3500</p>
+        </div>
+        <div class="activities">
+            <h2>Recent Activities</h2>
+            <ul>
+                <li>Sale recorded for $200 on 10/19/2024</li>
+                <li>Report generated on 10/18/2024</li>
+            </ul>
+        </div>
+        <a href="homePage.html" class="home-link">Return to Home Page</a>
+    </div>
+
+</body>
+</html>
